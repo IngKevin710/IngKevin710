@@ -71,10 +71,40 @@ Convertir requerimientos complejos en sistemas elegantes, escalables y mantenibl
 </tr>
 </table>
 
+<br/>
+
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=IngKevin710&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=1F6FEB&text_color=C9D1D9&include_all_commits=true&count_private=true" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IngKevin710&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=C9D1D9&langs_count=8" width="40%"/>
+### 📊 Métricas que me definen
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+<img src="https://img.shields.io/badge/-50%2B-00D4FF?style=for-the-badge&labelColor=0D1117"/>
+<br/><sub>**Tablas relacionales**</sub><br/><sub>en producción</sub>
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://img.shields.io/badge/-7-1F6FEB?style=for-the-badge&labelColor=0D1117"/>
+<br/><sub>**Módulos**</sub><br/><sub>integrados</sub>
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://img.shields.io/badge/-15%2B-00D4FF?style=for-the-badge&labelColor=0D1117"/>
+<br/><sub>**Tecnologías**</sub><br/><sub>dominadas</sub>
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://img.shields.io/badge/-3-1F6FEB?style=for-the-badge&labelColor=0D1117"/>
+<br/><sub>**Proyectos**</sub><br/><sub>desarrollados</sub>
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -159,7 +189,7 @@ Convertir requerimientos complejos en sistemas elegantes, escalables y mantenibl
 
 <table border="0">
 <tr>
-<td colspan="2" align="center" bgcolor="#0D1117">
+<td colspan="2" align="center">
 
 #### 🌐 CAPA DE PRESENTACIÓN
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
@@ -171,17 +201,6 @@ Convertir requerimientos complejos en sistemas elegantes, escalables y mantenibl
 </td>
 </tr>
 <tr><td colspan="2" align="center"><sub>⬇ HTTPS · JWT Token ⬇</sub></td></tr>
-<tr>
-<td colspan="2" align="center">
-
-#### 🛡️ API GATEWAY
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-<br/>
-<sub>Reverse proxy · Load balancing · SSL</sub>
-
-</td>
-</tr>
-<tr><td colspan="2" align="center"><sub>⬇ Routing ⬇</sub></td></tr>
 <tr>
 <td width="50%" align="center">
 
@@ -243,7 +262,7 @@ Convertir requerimientos complejos en sistemas elegantes, escalables y mantenibl
 
 <table>
 <tr>
-<th width="25%" align="center" bgcolor="#1F6FEB">
+<th width="25%" align="center">
 
 <img src="https://img.shields.io/badge/-FASE_1-1F6FEB?style=for-the-badge"/>
 
@@ -595,47 +614,56 @@ Convertir requerimientos complejos en sistemas elegantes, escalables y mantenibl
 
 <br/>
 
-<sub>¿Tienes un proyecto interesante o una oportunidad? Hablemos.</sub>
+**¿Tienes un proyecto interesante o una oportunidad?**<br/>
+*Estoy abierto a colaboraciones, propuestas laborales y conversaciones técnicas.*
+
+<br/>
+
+<a href="mailto:kppardo0401@gmail.com">
+  <img src="https://img.shields.io/badge/-Env%C3%ADame_un_correo-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" alt="Email" />
+</a>
+&nbsp;
+<a href="https://wa.me/573223475153">
+  <img src="https://img.shields.io/badge/-Habla_por_WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=25D366" alt="WhatsApp" />
+</a>
+
+<br/><br/>
+
+<a href="https://www.linkedin.com/in/kevin-peñaranda">
+  <img src="https://img.shields.io/badge/-Conectemos_en_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn" />
+</a>
+&nbsp;
+<a href="https://github.com/IngKevin710">
+  <img src="https://img.shields.io/badge/-S%C3%ADgueme_en_GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" alt="GitHub" />
+</a>
 
 <br/><br/>
 
 <table>
 <tr>
-<td align="center" width="25%">
-<a href="mailto:kppardo0401@gmail.com">
-<img src="https://img.shields.io/badge/-EA4335?style=for-the-badge&logo=gmail&logoColor=white&label=&labelColor=EA4335" height="55"/>
-<br/>
-<b>Email</b>
-<br/>
+<td align="center">
+
+📧 **Email**<br/>
 <sub>kppardo0401@gmail.com</sub>
-</a>
+
 </td>
-<td align="center" width="25%">
-<a href="https://wa.me/573223475153">
-<img src="https://img.shields.io/badge/-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&label=&labelColor=25D366" height="55"/>
-<br/>
-<b>WhatsApp</b>
-<br/>
+<td align="center">
+
+📱 **WhatsApp**<br/>
 <sub>+57 322 347 5153</sub>
-</a>
+
 </td>
-<td align="center" width="25%">
-<a href="https://linkedin.com/in/IngKevin710">
-<img src="https://img.shields.io/badge/-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&label=&labelColor=0A66C2" height="55"/>
-<br/>
-<b>LinkedIn</b>
-<br/>
-<sub>@IngKevin710</sub>
-</a>
+<td align="center">
+
+💼 **LinkedIn**<br/>
+<sub>kevin-peñaranda</sub>
+
 </td>
-<td align="center" width="25%">
-<a href="https://github.com/IngKevin710">
-<img src="https://img.shields.io/badge/-181717?style=for-the-badge&logo=github&logoColor=white&label=&labelColor=181717" height="55"/>
-<br/>
-<b>GitHub</b>
-<br/>
+<td align="center">
+
+💻 **GitHub**<br/>
 <sub>@IngKevin710</sub>
-</a>
+
 </td>
 </tr>
 </table>
