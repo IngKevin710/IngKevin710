@@ -18,47 +18,75 @@
 
 </div>
 
----
+<br/>
 
-<table>
+<!-- ═══════════════════════════════════════════════ -->
+<!--                   SOBRE MÍ                      -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<div align="center">
+
+## 🚀 Sobre mí
+
+</div>
+
+<table align="center" border="0">
 <tr>
-<td width="55%" valign="top">
-
-## ⚡ Sobre mí
+<td width="50%" valign="top">
 
 ```typescript
 const kevin = {
   rol:        "Full Stack Developer",
-  ubicacion:  "Ocaña, Norte de Santander 🇨🇴",
+  ubicacion:  "Ocaña, N.S. 🇨🇴",
   empresa:    "Tecnomotos S.A.S.",
-  proyecto:   "SIDT — Sistema empresarial",
-  enfoque:    ["Arquitectura limpia",
-               "APIs RESTful escalables",
-               "Microservicios con Docker",
-               "Visión artificial aplicada"]
+  proyecto:   "SIDT",
+  enfoque:    [
+    "Arquitectura limpia",
+    "APIs RESTful escalables",
+    "Microservicios + Docker",
+    "Visión artificial aplicada"
+  ],
+  filosofia:  "Clean code > Quick code"
 };
 ```
 
-Construyo aplicaciones web empresariales completas — del modelado relacional hasta el despliegue en contenedores. Mi día a día combina **Java/Spring Boot** en el backend, **React** en el frontend, **PostgreSQL** para datos transaccionales y **Python con YOLOv8** cuando hay que entrenar modelos de visión artificial.
-
 </td>
-<td width="45%" valign="top">
+<td width="50%" valign="top">
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=IngKevin710&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=00D4FF&icon_color=1F6FEB&text_color=C9D1D9&include_all_commits=true" width="100%"/>
+> 💡 **Lo que hago**
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=IngKevin710&theme=tokyonight&hide_border=true&background=00000000&ring=00D4FF&fire=00D4FF&currStreakLabel=00D4FF&sideLabels=C9D1D9&dates=8B949E" width="100%"/>
+Construyo aplicaciones web empresariales completas — del **modelado relacional** hasta el **despliegue en contenedores**.
+
+> 🎯 **Mi stack diario**
+
+`Java` + `Spring Boot` en el backend · `React` en el frontend · `PostgreSQL` para datos transaccionales · `Python` + `YOLOv8` cuando hay que entrenar modelos de visión.
+
+> ⚡ **Lo que me motiva**
+
+Convertir requerimientos complejos en sistemas elegantes, escalables y mantenibles.
 
 </td>
 </tr>
 </table>
 
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=IngKevin710&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=1F6FEB&text_color=C9D1D9&include_all_commits=true&count_private=true" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IngKevin710&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=C9D1D9&langs_count=8" width="40%"/>
+
+</div>
+
 ---
 
-## 🛠️ Arsenal Tecnológico
+<!-- ═══════════════════════════════════════════════ -->
+<!--                   STACK                         -->
+<!-- ═══════════════════════════════════════════════ -->
 
 <div align="center">
+
+## 🛠️ Arsenal Tecnológico
 
 #### Lenguajes
 <p>
@@ -98,11 +126,13 @@ Construyo aplicaciones web empresariales completas — del modelado relacional h
 
 ---
 
+<!-- ═══════════════════════════════════════════════ -->
+<!--               PROYECTOS DESTACADOS              -->
+<!-- ═══════════════════════════════════════════════ -->
+
 <div align="center">
 
 # 🚀 Proyectos Destacados
-
-<img width="80%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,20,24&height=2&section=header"/>
 
 </div>
 
@@ -123,24 +153,89 @@ Construyo aplicaciones web empresariales completas — del modelado relacional h
 
 <br/>
 
-### 🏛️ Arquitectura
+### 🏛️ Arquitectura del Sistema
 
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║                      🌐  FRONTEND (React + Tailwind)                 ║
-║              Componentes por rol · Auth JWT · Axios                  ║
-╠══════════════════════════════════════════════════════════════════════╣
-║                       🛡️  API Gateway / Nginx                        ║
-╠══════════════════════════════════════╦═══════════════════════════════╣
-║   ⚙️  Spring Boot 3 (Java 21)         ║  🤖 FastAPI + YOLOv8          ║
-║      RESTful API · JWT · JPA          ║     Detección de EPP           ║
-╠══════════════════════════════════════╩═══════════════════════════════╣
-║   🐘 PostgreSQL 16          │          📦 MinIO (Object Storage)     ║
-║   +50 tablas relacionales    │          Compatible con S3              ║
-╠══════════════════════════════════════════════════════════════════════╣
-║         🐳 Docker Compose · dev → staging → production               ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
+<div align="center">
+
+<table border="0">
+<tr>
+<td colspan="2" align="center" bgcolor="#0D1117">
+
+#### 🌐 CAPA DE PRESENTACIÓN
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white)
+<br/>
+<sub>Componentes por rol · Rutas protegidas · State management</sub>
+
+</td>
+</tr>
+<tr><td colspan="2" align="center"><sub>⬇ HTTPS · JWT Token ⬇</sub></td></tr>
+<tr>
+<td colspan="2" align="center">
+
+#### 🛡️ API GATEWAY
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+<br/>
+<sub>Reverse proxy · Load balancing · SSL</sub>
+
+</td>
+</tr>
+<tr><td colspan="2" align="center"><sub>⬇ Routing ⬇</sub></td></tr>
+<tr>
+<td width="50%" align="center">
+
+#### ⚙️ MICROSERVICIO PRINCIPAL
+![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
+![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+<br/>
+<sub>RESTful API · Spring Security · JPA · Schedulers</sub>
+
+</td>
+<td width="50%" align="center">
+
+#### 🤖 MICROSERVICIO IA
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-111111?style=flat-square&logo=yolo&logoColor=00FFFF)
+<br/>
+<sub>Detección de EPP · Visión artificial</sub>
+
+</td>
+</tr>
+<tr><td colspan="2" align="center"><sub>⬇ Persistencia ⬇</sub></td></tr>
+<tr>
+<td width="50%" align="center">
+
+#### 🐘 BASE DE DATOS
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL_16-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+<br/>
+<sub>+50 tablas relacionales · Índices optimizados</sub>
+
+</td>
+<td width="50%" align="center">
+
+#### 📦 OBJECT STORAGE
+![MinIO](https://img.shields.io/badge/MinIO-C72E49?style=flat-square&logo=minio&logoColor=white)
+<br/>
+<sub>Compatible S3 · Imágenes · Contratos PDF</sub>
+
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+
+#### 🐳 ORQUESTACIÓN
+![Docker](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
+<br/>
+<sub>development → staging → production</sub>
+
+</td>
+</tr>
+</table>
+
+</div>
 
 <br/>
 
@@ -148,70 +243,78 @@ Construyo aplicaciones web empresariales completas — del modelado relacional h
 
 <table>
 <tr>
-<th width="25%" align="center">
+<th width="25%" align="center" bgcolor="#1F6FEB">
 
-🎯 **FASE 1**<br/>
-*Análisis & Diseño*<br/>
-✅ Completada
+<img src="https://img.shields.io/badge/-FASE_1-1F6FEB?style=for-the-badge"/>
 
-</th>
-<th width="25%" align="center">
+🎯 **Análisis & Diseño**
 
-🏗️ **FASE 2**<br/>
-*Infraestructura*<br/>
-✅ Completada
+![Status](https://img.shields.io/badge/100%25-Completada-00D4FF?style=flat-square)
 
 </th>
 <th width="25%" align="center">
 
-⚙️ **FASE 3**<br/>
-*Lógica de Negocio*<br/>
-✅ Completada
+<img src="https://img.shields.io/badge/-FASE_2-1F6FEB?style=for-the-badge"/>
+
+🏗️ **Infraestructura**
+
+![Status](https://img.shields.io/badge/100%25-Completada-00D4FF?style=flat-square)
 
 </th>
 <th width="25%" align="center">
 
-🎨 **FASE 4**<br/>
-*Frontend & Deploy*<br/>
-🔄 En progreso
+<img src="https://img.shields.io/badge/-FASE_3-1F6FEB?style=for-the-badge"/>
+
+⚙️ **Lógica de Negocio**
+
+![Status](https://img.shields.io/badge/100%25-Completada-00D4FF?style=flat-square)
+
+</th>
+<th width="25%" align="center">
+
+<img src="https://img.shields.io/badge/-FASE_4-FF6F00?style=for-the-badge"/>
+
+🎨 **Frontend & Deploy**
+
+![Status](https://img.shields.io/badge/En_progreso-FF6F00?style=flat-square)
 
 </th>
 </tr>
 <tr>
 <td valign="top">
 
-- Levantamiento de requerimientos
-- Modelo lógico relacional
-- Diseño de BD 
-- Prototipo en Figma
-- Definición de roles y permisos
+✓ Levantamiento de requerimientos<br/>
+✓ Modelo lógico relacional<br/>
+✓ Diseño de BD (6 iteraciones)<br/>
+✓ Prototipo en Figma<br/>
+✓ Definición de roles y permisos
 
 </td>
 <td valign="top">
 
-- Docker Compose multi-ambiente
-- PostgreSQL con 50+ tablas (Además de auditoria)
-- MinIO para archivos
-- Spring Boot configurado
-- FastAPI para visión artificial
+✓ Docker Compose multi-ambiente<br/>
+✓ PostgreSQL con +50 tablas<br/>
+✓ MinIO para archivos<br/>
+✓ Spring Boot configurado<br/>
+✓ FastAPI para visión artificial
 
 </td>
 <td valign="top">
 
-- DTOs y validaciones
-- Spring Security + JWT
-- Services + Controllers
-- Schedulers automáticos
-- Sistema de notificaciones
+✓ DTOs y validaciones<br/>
+✓ Spring Security + JWT<br/>
+✓ Services + Controllers<br/>
+✓ Schedulers automáticos<br/>
+✓ Sistema de notificaciones
 
 </td>
 <td valign="top">
 
-- Páginas React por rol
-- Integración API completa
-- Dashboards interactivos
-- Testing end-to-end
-- Deploy en producción
+⏳ Páginas React por rol<br/>
+⏳ Integración API completa<br/>
+⏳ Dashboards interactivos<br/>
+⏳ Testing end-to-end<br/>
+⏳ Deploy en producción
 
 </td>
 </tr>
@@ -331,46 +434,150 @@ Construyo aplicaciones web empresariales completas — del modelado relacional h
 
 ---
 
-## 📈 Mi actividad
+<!-- ═══════════════════════════════════════════════ -->
+<!--          FORMACIÓN & CERTIFICACIONES            -->
+<!-- ═══════════════════════════════════════════════ -->
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=IngKevin710&theme=tokyo-night&bg_color=0D1117&color=00D4FF&line=1F6FEB&point=FFFFFF&hide_border=true&area=true" width="95%"/>
-
-<br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IngKevin710&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=C9D1D9&langs_count=8" width="48%"/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=IngKevin710&theme=tokyonight&no-frame=true&no-bg=true&column=4&row=2&margin-w=10" width="48%"/>
+## 🎓 Formación & Certificaciones
 
 </div>
 
----
+<br/>
 
-## 🎓 Formación & Certificaciones
+<div align="center">
+
+### 🏛️ Educación Universitaria
+
+<table>
+<tr>
+<td align="center" width="100%">
+
+<img src="https://img.shields.io/badge/UFPS-Universidad_Francisco_de_Paula_Santander-C8102E?style=for-the-badge&logoColor=white" />
+
+<br/><br/>
+
+**Ingeniería de Sistemas** · *En curso*<br/>
+<sub>📍 Ocaña, Norte de Santander · 2023 — Presente</sub>
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<br/>
+
+### 📜 Certificaciones Profesionales
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🏫 Educación
+<table align="center">
+<tr><td align="center">
 
-**Ingeniería de Sistemas** *(en curso)*<br/>
-Universidad Francisco de Paula Santander — Ocaña<br/>
-`2023 — Presente`
+🏆<br/>
+**Gestión de Proyectos & Agile**
+
+<img src="https://img.shields.io/badge/A%C3%B1o-2026-00D4FF?style=flat-square"/>
+<img src="https://img.shields.io/badge/Estado-Verificado-1F6FEB?style=flat-square"/>
+
+</td></tr>
+</table>
+
+<table align="center">
+<tr><td align="center">
+
+🏆<br/>
+**Bootcamp de Programación**<br/>
+<sub>MINTIC Colombia</sub>
+
+<img src="https://img.shields.io/badge/A%C3%B1o-2024-00D4FF?style=flat-square"/>
+<img src="https://img.shields.io/badge/Estado-Verificado-1F6FEB?style=flat-square"/>
+
+</td></tr>
+</table>
+
+<table align="center">
+<tr><td align="center">
+
+🏆<br/>
+**Front-End Development**<br/>
+<sub>Coursera + Meta</sub>
+
+<img src="https://img.shields.io/badge/A%C3%B1o-2024-00D4FF?style=flat-square"/>
+<img src="https://img.shields.io/badge/Estado-Verificado-1F6FEB?style=flat-square"/>
+
+</td></tr>
+</table>
+
+<table align="center">
+<tr><td align="center">
+
+🏆<br/>
+**Resolución de Problemas**<br/>
+<sub>UC Irvine · Coursera</sub>
+
+<img src="https://img.shields.io/badge/A%C3%B1o-2024-00D4FF?style=flat-square"/>
+<img src="https://img.shields.io/badge/Estado-Verificado-1F6FEB?style=flat-square"/>
+
+</td></tr>
+</table>
 
 </td>
 <td width="50%" valign="top">
 
-### 📜 Certificaciones
+<table align="center">
+<tr><td align="center">
 
-- 🏆 Gestión de Proyectos y Metodología Agile *(2026)*
-- 🏆 Bootcamp de Programación — **MINTIC** *(2024)*
-- 🏆 Front-End Development — **Coursera + Meta** *(2024)*
-- 🏆 Resolución de Problemas — **UC Irvine** *(2024)*
-- 🏆 Java Profesional — **Código Facilito** *(2023)*
-- 🏆 GitHub a Fondo — **Código Facilito** *(2023)*
-- 📚 SQL Total — **Udemy** *(En curso)*
+🏆<br/>
+**Java Profesional**<br/>
+<sub>Código Facilito</sub>
+
+<img src="https://img.shields.io/badge/A%C3%B1o-2023-00D4FF?style=flat-square"/>
+<img src="https://img.shields.io/badge/Estado-Verificado-1F6FEB?style=flat-square"/>
+
+</td></tr>
+</table>
+
+<table align="center">
+<tr><td align="center">
+
+🏆<br/>
+**GitHub a Fondo**<br/>
+<sub>Código Facilito</sub>
+
+<img src="https://img.shields.io/badge/A%C3%B1o-2023-00D4FF?style=flat-square"/>
+<img src="https://img.shields.io/badge/Estado-Verificado-1F6FEB?style=flat-square"/>
+
+</td></tr>
+</table>
+
+<table align="center">
+<tr><td align="center">
+
+📚<br/>
+**SQL Total**<br/>
+<sub>Udemy</sub>
+
+<img src="https://img.shields.io/badge/A%C3%B1o-2026-FF6F00?style=flat-square"/>
+<img src="https://img.shields.io/badge/Estado-En_curso-FF6F00?style=flat-square"/>
+
+</td></tr>
+</table>
+
+<table align="center">
+<tr><td align="center">
+
+🎯<br/>
+**Trofeos GitHub**
+
+<img src="https://github-profile-trophy.vercel.app/?username=IngKevin710&theme=tokyonight&no-frame=true&no-bg=true&column=3&row=1&margin-w=5"/>
+
+</td></tr>
+</table>
 
 </td>
 </tr>
@@ -378,28 +585,64 @@ Universidad Francisco de Paula Santander — Ocaña<br/>
 
 ---
 
-## 💬 Conectemos
+<!-- ═══════════════════════════════════════════════ -->
+<!--                  CONECTEMOS                     -->
+<!-- ═══════════════════════════════════════════════ -->
 
 <div align="center">
 
+## 💬 Conectemos
+
 <br/>
 
-<a href="mailto:kppardo0401@gmail.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-<a href="https://wa.me/573223475153">
-  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-</a>
-<a href="www.linkedin.com/in/kevin-peñaranda">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://github.com/IngKevin710">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
+<sub>¿Tienes un proyecto interesante o una oportunidad? Hablemos.</sub>
 
 <br/><br/>
 
-<i>📍 Ocaña, Norte de Santander · Colombia</i>
+<table>
+<tr>
+<td align="center" width="25%">
+<a href="mailto:kppardo0401@gmail.com">
+<img src="https://img.shields.io/badge/-EA4335?style=for-the-badge&logo=gmail&logoColor=white&label=&labelColor=EA4335" height="55"/>
+<br/>
+<b>Email</b>
+<br/>
+<sub>kppardo0401@gmail.com</sub>
+</a>
+</td>
+<td align="center" width="25%">
+<a href="https://wa.me/573223475153">
+<img src="https://img.shields.io/badge/-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&label=&labelColor=25D366" height="55"/>
+<br/>
+<b>WhatsApp</b>
+<br/>
+<sub>+57 322 347 5153</sub>
+</a>
+</td>
+<td align="center" width="25%">
+<a href="https://linkedin.com/in/IngKevin710">
+<img src="https://img.shields.io/badge/-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&label=&labelColor=0A66C2" height="55"/>
+<br/>
+<b>LinkedIn</b>
+<br/>
+<sub>@IngKevin710</sub>
+</a>
+</td>
+<td align="center" width="25%">
+<a href="https://github.com/IngKevin710">
+<img src="https://img.shields.io/badge/-181717?style=for-the-badge&logo=github&logoColor=white&label=&labelColor=181717" height="55"/>
+<br/>
+<b>GitHub</b>
+<br/>
+<sub>@IngKevin710</sub>
+</a>
+</td>
+</tr>
+</table>
+
+<br/>
+
+<img src="https://img.shields.io/badge/📍_Oca%C3%B1a_·_Norte_de_Santander_·_Colombia_🇨🇴-0D1117?style=for-the-badge"/>
 
 </div>
 
