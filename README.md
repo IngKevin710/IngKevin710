@@ -11,8 +11,6 @@
 <br/>
 
 <!-- Profile views, followers, etc -->
-<img src="https://komarev.com/ghpvc/?username=IngKevin710&label=Profile%20views&color=00D4FF&style=flat-square" alt="profile views"/>
-<img src="https://img.shields.io/github/followers/IngKevin710?label=Followers&style=flat-square&color=00D4FF" alt="followers"/>
 <img src="https://img.shields.io/badge/Focus-SIDT_Project-1F6FEB?style=flat-square" alt="focus"/>
 <img src="https://img.shields.io/badge/Open_to_Work-00D4FF?style=flat-square" alt="open to work"/>
 
@@ -74,37 +72,6 @@ Convertir requerimientos complejos en sistemas elegantes, escalables y mantenibl
 <br/>
 
 <div align="center">
-
-### 📊 Métricas que me definen
-
-<table>
-<tr>
-<td align="center" width="25%">
-
-<img src="https://img.shields.io/badge/-50%2B-00D4FF?style=for-the-badge&labelColor=0D1117"/>
-<br/><sub>**Tablas relacionales**</sub><br/><sub>en producción</sub>
-
-</td>
-<td align="center" width="25%">
-
-<img src="https://img.shields.io/badge/-7-1F6FEB?style=for-the-badge&labelColor=0D1117"/>
-<br/><sub>**Módulos**</sub><br/><sub>integrados</sub>
-
-</td>
-<td align="center" width="25%">
-
-<img src="https://img.shields.io/badge/-15%2B-00D4FF?style=for-the-badge&labelColor=0D1117"/>
-<br/><sub>**Tecnologías**</sub><br/><sub>dominadas</sub>
-
-</td>
-<td align="center" width="25%">
-
-<img src="https://img.shields.io/badge/-3-1F6FEB?style=for-the-badge&labelColor=0D1117"/>
-<br/><sub>**Proyectos**</sub><br/><sub>desarrollados</sub>
-
-</td>
-</tr>
-</table>
 
 </div>
 
@@ -305,7 +272,6 @@ Convertir requerimientos complejos en sistemas elegantes, escalables y mantenibl
 ✓ Levantamiento de requerimientos<br/>
 ✓ Modelo lógico relacional<br/>
 ✓ Diseño de BD (6 iteraciones)<br/>
-✓ Prototipo en Figma<br/>
 ✓ Definición de roles y permisos
 
 </td>
